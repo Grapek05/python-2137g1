@@ -1,0 +1,27 @@
+lista = [7,2,5,1,9]
+lista[0] = 7
+mniejsze=[2,5,1]
+wieksze=[9]
+
+wynik = [2,5,1] + [7] + [9]
+
+lista [0] = 2
+mniejsze = [1]
+wieksze = [5]
+
+wynik [1]+[2]+[5]
+
+wracamy
+[1]+[2]+[5] + [7] + [9]
+
+[1,2,5,7,9]
+
+#pseudokod
+funkcja quickSort(arr):
+    jezeli ilosc elementow w arr <= 1
+        zwroc arr
+    pivot = pierwszy element z listy
+    mniejsze = lista elementow mniejsza od pivot
+    wieksze = lista elementow wieksza od pivot
+
+lista = [7,2,5,1,9]
